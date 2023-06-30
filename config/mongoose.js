@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
 
 //connect to db
-mongoose.connect(`${process.env.MONGO_URL}`);
+mongoose.connect(`${process.env.DB_URL}`);
 
 //get the db
 const db = mongoose.connection;

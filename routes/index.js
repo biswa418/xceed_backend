@@ -1,10 +1,10 @@
 const express = require('express')
 const router = express.Router();
 
-const userController = require('../controllers/userController');
+const userController = require('../controller/userController');
 const jwtAuth = require('../middleware/jwtAuth');
 
-router.get('/', function (req, res) {
+router.get('/posts', function (req, res) {
     return res.json({ message: "Hello" })
 });
 

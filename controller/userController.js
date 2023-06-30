@@ -1,11 +1,10 @@
 const jwt = require('jsonwebtoken');
-const User = require('../models/Users');
+const User = require('../model/Users');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 
 //user signin
 module.exports.signin = async (req, res) => {
-
     const { email: userEmail, password } = req.body;
 
     try {
@@ -54,7 +53,7 @@ module.exports.signup = async (req, res) => {
         if (user) {
             return res
                 .status(400)
-                .json({ message: "Account already exists, Sign In!" });
+                .json({ message: "Account already exists, Sign In!", success: false });
         }
 
         const encryptedPass = bcrypt.hashSync(password, saltRounds);
@@ -66,10 +65,10 @@ module.exports.signup = async (req, res) => {
         });
 
         if (!userCreated) {
-            return res.status(400).json({ message: "User creation failed" });
+            return res.status(400).json({ message: "User creation failed", success: false });
         }
 
-        return res.status(200).json({ message: "User successfully created" });
+        return res.status(200).json({ message: "User successfully created", success: true });
     } catch (err) {
         return res.status(500).json({ err });
     }

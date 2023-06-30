@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors')
 const port = 8000;
 const router = require('./routes');
 
@@ -10,6 +11,7 @@ const db = require('./config/mongoose');
 
 const app = express();
 
+app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
 //routes
