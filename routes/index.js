@@ -1,16 +1,10 @@
 const express = require('express')
 const router = express.Router();
 
-const userController = require('../controller/userController');
-const jwtAuth = require('../middleware/jwtAuth');
-
-router.get('/posts', function (req, res) {
-    return res.json({ message: "Hello" })
-});
+const { pageController, userController } = require('../controller');
 
 router.post('/signin', userController.signin);
 router.post('/signup', userController.signup);
-
-router.post('/signiin', jwtAuth.validate, userController.signiin);
+router.get('/posts', pageController.pageWise);
 
 module.exports = router;

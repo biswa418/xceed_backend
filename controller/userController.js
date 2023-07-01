@@ -26,12 +26,15 @@ module.exports.signin = async (req, res) => {
 
         const { _id, name, email, avatar } = user;
         let token = jwt.sign({ _id, name, email, avatar }, process.env.JWT_SECRET, {
-            expiresIn: "1d"
+            expiresIn: "10d"
         })
 
         res.status(200).json({
             message: 'Signin Successful',
-            token
+            success: true,
+            data: {
+                token
+            }
         })
 
     } catch (err) {
