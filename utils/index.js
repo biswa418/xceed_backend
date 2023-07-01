@@ -84,11 +84,12 @@ module.exports.content = [
     {
         name: 'Quiz',
         lastMod: new Date('01-07-2023'),
+        question: 0,
         continue: false,
         data: {
-            about: "Cameron and Aniyah are trying to add 341 + 293. Cameron adds 340 + 294. Aniyah adds 348 + 300. Whose result is equal to 341 + 293?",
+            about: "Q. Cameron and Aniyah are trying to add 341 + 293. Cameron adds 340 + 294. Aniyah adds 348 + 300. Whose result is equal to 341 + 293?",
             title: 'Select strategies for adding within 1000',
-            ans: 'A',
+            ans: "Only Cameron's result",
             section: [
                 {
                     title: "A",
@@ -145,15 +146,24 @@ module.exports.content = [
     {
         name: 'Quiz',
         lastMod: new Date('01-07-2023'),
+        question: 1,
         continue: false,
         data: {
-            about: "Add.",
+            about: "Q. Add 621+111",
             title: 'Add within 1000',
             ans: 732,
             section: [
                 {
-                    title: "=",
-                    content: "621+111",
+                    title: "A",
+                    content: 721,
+                },
+                {
+                    title: "B",
+                    content: 732,
+                },
+                {
+                    title: "C",
+                    content: 648,
                 },
             ]
         }
@@ -239,15 +249,24 @@ module.exports.content = [
     {
         name: 'Quiz',
         lastMod: new Date('01-07-2023'),
+        question: 2,
         continue: false,
         data: {
-            about: "Subtract.",
+            about: "Q. Subtract 354-295",
             title: 'Subtract within 1000',
             ans: 59,
             section: [
                 {
-                    title: "=",
-                    content: "354-295",
+                    title: "A",
+                    content: 59,
+                },
+                {
+                    title: "B",
+                    content: 69,
+                },
+                {
+                    title: "C",
+                    content: 101,
                 },
             ]
         }
