@@ -14,7 +14,10 @@ module.exports.pageWise = async (req, res, next) => {
     const title = content[page]["name"];
 
     if (title === 'Quiz') {
-        return jwtAuth.validate(req, res, next);
+        const response = await jwtAuth.validate(req, res, next);
+
+        if (response)
+            return;
     }
 
     return res.status(200).json({

@@ -6,17 +6,17 @@ module.exports.content = [
         data: {
             about: "Let's explore adding two 3-digit numbers using place value and carrying. We walk through the process step by step, starting with the ones place, then the tens place, and finally the hundreds place. We emphasize the importance of understanding what carrying means and how it relates to place value.",
             title: 'Using place value to add 3-digit numbers: part 1',
-            video: 'https://www.youtube.com/embed/Wm0zq-NqEFs',
+            video: 'http://www.youtube.com/embed/Wm0zq-NqEFs',
             section: [
                 {
                     "title": "Introduction",
                     "content": "Welcome, young mathematicians! Today, we're going to embark on a magical math adventure where we'll explore the fascinating world of adding two 3-digit numbers. Get ready to dive into the realm of place value and discover the secret of carrying. So, gather your math tools and let's unlock the mysteries of addition!",
-                    "media": ""
+                    "media": "https://media.tenor.com/EuHPd7KRFT4AAAAd/explaining-bbb.gif"
                 },
                 {
                     "title": "Understanding Place Value",
                     "content": "Let's start our journey by understanding the concept of place value. Imagine you have a number like 356. Each digit in this number holds a special place: the ones place, the tens place, and the hundreds place. The place value tells us how much each digit is worth. For example, in 356, the 6 represents six ones, the 5 represents five tens, and the 3 represents three hundreds.",
-                    "media": "https://example.com/place_value.gif"
+                    "media": ""
                 },
                 {
                     "title": "Adding in the Ones Place",
@@ -26,7 +26,7 @@ module.exports.content = [
                 {
                     "title": "Adding in the Tens Place",
                     "content": "Now let's move on to the tens place. We have a carried-over 1 from the ones place, and we add it to the digits in the tens place...",
-                    "media": "https://example.com/tens_place.gif"
+                    "media": "https://www.math-salamanders.com/image-files/3-digit-addition-example-5c.gif"
                 },
                 {
                     "title": "Adding in the Hundreds Place",
@@ -36,7 +36,7 @@ module.exports.content = [
                 {
                     "title": "Conclusion",
                     "content": "Congratulations, young mathematicians! You've successfully added two 3-digit numbers using place value and carrying...",
-                    "media": "https://example.com/conclusion.gif"
+                    "media": "https://media.tenor.com/sZAFBih2R54AAAAC/minions.gif"
                 }
             ]
         }
@@ -52,7 +52,8 @@ module.exports.content = [
             section: [
                 {
                     "title": "Introduction",
-                    "content": "Welcome, young problem solvers! Today, we are going to explore the concept of regrouping in addition and learn how to add two numbers using this technique. Get ready to dive into the world of numbers as we tackle the challenge of adding 536 and 398. By the end of this adventure, you'll become an expert in regrouping!"
+                    "content": "Welcome, young problem solvers! Today, we are going to explore the concept of regrouping in addition and learn how to add two numbers using this technique. Get ready to dive into the world of numbers as we tackle the challenge of adding 536 and 398. By the end of this adventure, you'll become an expert in regrouping!",
+                    "media": "https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/addition-with-regrouping-05-1655889749.png"
                 },
                 {
                     "title": "Understanding Regrouping",
@@ -72,7 +73,8 @@ module.exports.content = [
                 },
                 {
                     "title": "Conclusion",
-                    "content": "Congratulations, young problem solvers! You've successfully added 536 and 398 using regrouping. Remember, regrouping is a powerful technique that helps us handle larger numbers and maintain the correct place value. Keep practicing your regrouping skills, and soon you'll be able to tackle even more challenging addition problems with ease!"
+                    "content": "Congratulations, young problem solvers! You've successfully added 536 and 398 using regrouping. Remember, regrouping is a powerful technique that helps us handle larger numbers and maintain the correct place value. Keep practicing your regrouping skills, and soon you'll be able to tackle even more challenging addition problems with ease!",
+                    "media": "https://media.tenor.com/LsMKjz7L5-cAAAAC/excited-congrats.gif"
                 }
             ]
         }
@@ -84,7 +86,7 @@ module.exports.content = [
         lastMod: new Date('01-07-2023'),
         continue: false,
         data: {
-            about: "Cameron and Aniyah are trying to add 341 + 293. Cameron adds 340 + 294. Aniyah adds 348 + 300.",
+            about: "Cameron and Aniyah are trying to add 341 + 293. Cameron adds 340 + 294. Aniyah adds 348 + 300. Whose result is equal to 341 + 293?",
             title: 'Select strategies for adding within 1000',
             ans: 'A',
             section: [
@@ -111,11 +113,12 @@ module.exports.content = [
         data: {
             about: "Learn to use regrouping, or carrying to add 709+996, 373+88, and 149+293.",
             title: "Adding 3-digit numbers",
-            video: "https://www.youtube.com/embed/9hM32lsQ4aI",
+            video: "http://www.youtube.com/embed/9hM32lsQ4aI",
             section: [
                 {
                     "title": "Introduction",
-                    "content": "Welcome, young problem solvers! Today, we are going to master the art of regrouping, also known as carrying, in addition. Get ready to tackle some exciting challenges as we learn to add numbers using regrouping. By the end of this adventure, you'll be a regrouping expert!"
+                    "content": "Welcome, young problem solvers! Today, we are going to master the art of regrouping, also known as carrying, in addition. Get ready to tackle some exciting challenges as we learn to add numbers using regrouping. By the end of this adventure, you'll be a regrouping expert!",
+                    "media": "https://media.tenor.com/fRInL6y1DVUAAAAC/star-talk-my-last-question.gif"
                 },
                 {
                     "title": "Adding 709 and 996",
@@ -131,7 +134,8 @@ module.exports.content = [
                 },
                 {
                     "title": "Conclusion",
-                    "content": "Well done, young problem solvers! You've mastered regrouping in addition by adding numbers like 709 and 996, 373 and 88, and 149 and 293. Remember to start from the ones place, regroup when the sum is greater than 9, and carry over to the next place value. Keep practicing your regrouping skills, and you'll be able to solve more complex addition problems with confidence!"
+                    "content": "Well done, young problem solvers! You've mastered regrouping in addition by adding numbers like 709 and 996, 373 and 88, and 149 and 293. Remember to start from the ones place, regroup when the sum is greater than 9, and carry over to the next place value. Keep practicing your regrouping skills, and you'll be able to solve more complex addition problems with confidence!",
+                    "media": "https://media.tenor.com/IoxyXa78QE8AAAAC/finally-pksparkxx.gif"
                 }
             ]
         }
@@ -162,15 +166,17 @@ module.exports.content = [
         data: {
             about: "Subtract 357-156 using place value strategies.",
             title: 'Methods for subtracting 3-digit numbers',
-            video: 'https://www.youtube.com/embed/ZIiZkmaehsU',
+            video: 'http://www.youtube.com/embed/ZIiZkmaehsU',
             section: [
                 {
                     "title": "Introduction",
-                    "content": "Welcome, young mathematicians! Today, we're going to dive into the fascinating world of subtraction using place value strategies. Get ready to sharpen your math skills as we tackle the problem of subtracting 357 from 156. By the end of this adventure, you'll become a pro at using place value to solve subtraction problems!"
+                    "content": "Welcome, young mathematicians! Today, we're going to dive into the fascinating world of subtraction using place value strategies. Get ready to sharpen your math skills as we tackle the problem of subtracting 357 from 156. By the end of this adventure, you'll become a pro at using place value to solve subtraction problems!",
+                    "media": "https://media.tenor.com/IrwiUh_zsNUAAAAC/bugs-bunny-race.gif"
                 },
                 {
                     "title": "Understanding Place Value",
-                    "content": "Before we begin, let's review the concept of place value. Each digit in a number has a specific place value, such as ones, tens, hundreds, and so on. This means that each digit represents a certain quantity based on its position. Understanding place value is crucial for successful subtraction using place value strategies."
+                    "content": "Before we begin, let's review the concept of place value. Each digit in a number has a specific place value, such as ones, tens, hundreds, and so on. This means that each digit represents a certain quantity based on its position. Understanding place value is crucial for successful subtraction using place value strategies.",
+                    "media": "https://media.tenor.com/N_7fT2PiZXsAAAAC/verifica-matematica-rio.gif"
                 },
                 {
                     "title": "Subtracting in the Ones Place",
@@ -186,7 +192,8 @@ module.exports.content = [
                 },
                 {
                     "title": "Final Result",
-                    "content": "Congratulations, young mathematicians! You've successfully subtracted 357 from 156 using place value strategies. The final result is 201. Remember to carefully follow the place value steps, borrow when necessary, and subtract from left to right. With practice, you'll become a subtraction master!"
+                    "content": "Congratulations, young mathematicians! You've successfully subtracted 357 from 156 using place value strategies. The final result is 201. Remember to carefully follow the place value steps, borrow when necessary, and subtract from left to right. With practice, you'll become a subtraction master!",
+                    "media": "https://media.tenor.com/UW9tzi8hBcMAAAAC/i-hope-you-learned-a-lot-brad-mondo.gif"
                 }
             ]
         }
@@ -198,7 +205,7 @@ module.exports.content = [
         data: {
             about: "Using regrouping (borrowing) to subtract 913-286.",
             title: 'Worked example: Subtracting 3-digit numbers (regrouping twice)',
-            video: 'https://www.youtube.com/embed/LSaaKau63Gg',
+            video: 'http://www.youtube.com/embed/LSaaKau63Gg',
             section: [
                 {
                     "title": "Introduction",
