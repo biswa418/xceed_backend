@@ -6,7 +6,7 @@ module.exports.content = [
         data: {
             about: "Let's explore adding two 3-digit numbers using place value and carrying. We walk through the process step by step, starting with the ones place, then the tens place, and finally the hundreds place. We emphasize the importance of understanding what carrying means and how it relates to place value.",
             title: 'Using place value to add 3-digit numbers: part 1',
-            video: 'http://www.youtube.com/embed/Wm0zq-NqEFs',
+            video: 'https://www.youtube.com/embed/Wm0zq-NqEFs',
             section: [
                 {
                     "title": "Introduction",
@@ -114,7 +114,7 @@ module.exports.content = [
         data: {
             about: "Learn to use regrouping, or carrying to add 709+996, 373+88, and 149+293.",
             title: "Adding 3-digit numbers",
-            video: "http://www.youtube.com/embed/9hM32lsQ4aI",
+            video: "https://www.youtube.com/embed/9hM32lsQ4aI",
             section: [
                 {
                     "title": "Introduction",
@@ -176,7 +176,7 @@ module.exports.content = [
         data: {
             about: "Subtract 357-156 using place value strategies.",
             title: 'Methods for subtracting 3-digit numbers',
-            video: 'http://www.youtube.com/embed/ZIiZkmaehsU',
+            video: 'https://www.youtube.com/embed/ZIiZkmaehsU',
             section: [
                 {
                     "title": "Introduction",
@@ -215,7 +215,7 @@ module.exports.content = [
         data: {
             about: "Using regrouping (borrowing) to subtract 913-286.",
             title: 'Worked example: Subtracting 3-digit numbers (regrouping twice)',
-            video: 'http://www.youtube.com/embed/LSaaKau63Gg',
+            video: 'https://www.youtube.com/embed/LSaaKau63Gg',
             section: [
                 {
                     "title": "Introduction",
