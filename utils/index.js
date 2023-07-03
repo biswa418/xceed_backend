@@ -74,7 +74,7 @@ module.exports.content = [
                 {
                     "title": "Conclusion",
                     "content": "Congratulations, young problem solvers! You've successfully added 536 and 398 using regrouping. Remember, regrouping is a powerful technique that helps us handle larger numbers and maintain the correct place value. Keep practicing your regrouping skills, and soon you'll be able to tackle even more challenging addition problems with ease!",
-                    "media": "https://media.tenor.com/LsMKjz7L5-cAAAAC/excited-congrats.gif"
+                    "media": "https://media.tenor.com/a1R7E2to5BoAAAAd/sean-shawn.gif"
                 }
             ]
         }
